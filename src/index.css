@@ -1,0 +1,28 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+.slider {
+	padding: 16px;
+	height: 100%;
+}
+
+.logo {
+	height: 32px;
+	background: rgba(255, 255, 255, 0.2);
+	margin: 16px;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
