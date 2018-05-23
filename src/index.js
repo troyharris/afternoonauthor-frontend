@@ -187,7 +187,16 @@ class App extends React.Component {
 		return (
 			<Layout className="container">
 				<Sider trigger={null} collapsible collapsed={this.state.collapsed}>
-					<div className="logo" />
+					<div className="logo">
+						<img
+							src={require("./logo.png")}
+							srcSet={`
+    						${require("./logo@2x.png")} 2x, 
+    						${require("./logo.png")} 1x
+							`}
+							alt="Logo"
+						/>
+					</div>
 					<Menu theme="dark" mode="inline" defaultSelectedKeys={["2"]}>
 						<Menu.Item key="1">
 							<Icon type="home" />

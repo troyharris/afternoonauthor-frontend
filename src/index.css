@@ -18,8 +18,9 @@ body {
 
 .logo {
 	height: 32px;
-	background: rgba(255, 255, 255, 0.2);
-	margin: 16px;
+	/* background: rgba(255, 255, 255, 0.2); */
+	text-align: center;
+	margin: 14px 0;
 }
 
 .container {
